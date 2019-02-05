@@ -19,7 +19,7 @@
 	; g. single list with 3 elements
 	; h. single list with 2 elements
 
-;Question 3
+;Question 3 the ' symbol in here means literally those values, so literally A B C
 	(setf x '(A B C))
     (append x x)
 
@@ -30,7 +30,7 @@
 ;Question 5
 	; a.
 		(setq y (list 'a 'b))
-	; b.
+	; b. car is used to get the first value in a list which is a in this case
 		(list 'd (car y))
 
 ;Question 6
