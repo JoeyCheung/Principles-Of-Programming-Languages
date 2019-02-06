@@ -31,7 +31,7 @@
 	; a.
 		(setq y (list 'a 'b))
 	; b. car is used to get the first value in a list which is a in this case
-	; to get the second value in a list, you would use cdr eg: cadr y
+	; to get the second value in a list, you would use cadr eg: cadr y
 		(list 'd (car y))
 
 ;Question 6
@@ -59,7 +59,7 @@
         (temp)
         (* (- temp 32) (/ 5 9)))
 
-;Question 10
+;Question 10 rest gets everything from the list besides the first element
 	(defun rotate-left
         (whole-list)
         (append (rest whole-list) (list (first whole-list))))
