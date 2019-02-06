@@ -31,6 +31,7 @@
 	; a.
 		(setq y (list 'a 'b))
 	; b. car is used to get the first value in a list which is a in this case
+	; to get the second value in a list, you would use cdr eg: cdr y
 		(list 'd (car y))
 
 ;Question 6
